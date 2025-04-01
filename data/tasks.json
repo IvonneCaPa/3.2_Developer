@@ -16,5 +16,32 @@
         "startTime": "2025-03-03 12:00:00",
         "endTime": null,
         "user": "Felipe"
+    },
+    {
+        "title": "task 3",
+        "description": "task3",
+        "user": "Antonio",
+        "status": "pending",
+        "startTime": "2025-04-01 11:37:50",
+        "endTime": null,
+        "id": "3"
+    },
+    {
+        "title": "Task 4",
+        "description": "task 4",
+        "user": "Maria",
+        "status": "in_progress",
+        "startTime": "2025-04-01 11:50:38",
+        "endTime": null,
+        "id": "4"
+    },
+    {
+        "title": "Task 9",
+        "description": "Hacer deberes",
+        "user": "Ivonne",
+        "status": "done",
+        "startTime": "2025-04-01 11:51:21",
+        "endTime": null,
+        "id": "5"
     }
 ]
