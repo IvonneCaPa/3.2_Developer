@@ -1,26 +1,20 @@
 [
-	{
-		"idtasks" : 1,
-		"title" : "clonar repo",
-		"description" : "clonar o descargar el repositorio",
-		"status" : "finished",
-		"start_time" : "2023-03-23 15:30:45",
-		"end_time" : "2023-03-24 15:30:45"
-	},
-	{
-		"idtasks" : 2,
-		"title" : "nueva rama",
-		"description" : "crear nueva rama",
-		"status" : "execution",
-		"start_time" : "2023-03-24 15:30:45",
-		"end_time" : null
-	},
-	{
-		"idtasks" : 3,
-		"title" : "compartir",
-		"description" : "compartir la nueva rama con el mentor",
-		"status" : "earring",
-		"start_time" : "2023-03-24 15:30:45",
-		"end_time" : null
-	}
+    {
+        "id": "2",
+        "title": "Task 2",
+        "description": "This is the second task.",
+        "status": "done",
+        "startTime": "2025-03-02 12:00:00",
+        "endTime": "2025-03-03 14:00:00",
+        "user": "Susanita"
+    },
+    {
+        "id": "3",
+        "title": "Task 3",
+        "description": "This is the third task.",
+        "status": "in_progress",
+        "startTime": "2025-03-03 12:00:00",
+        "endTime": null,
+        "user": "Felipe"
+    }
 ]
