@@ -8,26 +8,24 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <?php $this->printScripts(); ?>
 </head>
-<body class="bg-gray-100 min-h-screen">
-    <nav class="bg-white shadow-md">
+<body class="bg-gradient-to-r from-green-300 via-green-500 to-emerald-600">
+    <nav>
         <div class="container mx-auto px-4">
-            <div class="flex justify-between h-16">
+            <div class="flex justify-center h-16">
                 <div class="flex">
                     <div class="flex-shrink-0 flex items-center">
-                        <a href="<?= $this->baseUrl() ?>/" class="font-bold text-xl text-blue-600">Gestor de Tareas</a>
+                        <a href="<?= $this->baseUrl() ?>/" class="font-bold text-3xl text-center text-gray-900 hover:text-yellow-800 hover:underline hover:decoration-yellow-800 decoration-2">📝 Gestor de Tareas</a>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
-
     <main>
         <?php echo $this->content(); ?>
     </main>
-
-    <footer class="bg-white mt-12 py-6">
+    <footer class="mt-12 py-6">
         <div class="container mx-auto px-4">
-            <p class="text-center text-gray-500 text-sm">Task Management Application &copy; <?= date('Y') ?></p>
+            <p class="text-center text-gray-800 text-sm">Task Management Application &copy; <?= date('Y') ?></p>
         </div>
     </footer>
 </body>

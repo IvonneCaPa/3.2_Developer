@@ -1,23 +1,5 @@
 [
     {
-        "id": "2",
-        "title": "Task 2",
-        "description": "This is the second task.",
-        "status": "done",
-        "startTime": "2025-03-02 12:00:00",
-        "endTime": "2025-03-03 14:00:00",
-        "user": "Susanita"
-    },
-    {
-        "id": "3",
-        "title": "Task 3",
-        "description": "This is the third task.",
-        "status": "in_progress",
-        "startTime": "2025-03-03 12:00:00",
-        "endTime": null,
-        "user": "Felipe"
-    },
-    {
         "title": "task 3",
         "description": "task3",
         "user": "Antonio",
