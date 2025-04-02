@@ -11,23 +11,23 @@
             return $taskObjects;
         }
         
-        // Create a new task
+        // Crea nueva tarea
         public function create($data)
         {
-            // Get current timestamp for startTime if not provided
+            // Obtiene la fecha y hora de creación
             if (!isset($data['startTime'])) {
                 $data['startTime'] = date('Y-m-d H:i:s');
             }
             
-            // Set default status if not provided
+            // Si no se establece status, por defecto pone pendiente
             if (!isset($data['status'])) {
                 $data['status'] = 'pending';
             }
             
-            // Set endTime to null for new tasks
+            // Como es nueva tarea la define como null el fin de la tarea
             $data['endTime'] = null;
             
-            // Save and return the new task ID
+            // Guardar y devolver el nuevo ID de tarea
             return $this->save($data);
         }
         

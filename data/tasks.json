@@ -1,14 +1,5 @@
 [
     {
-        "title": "task 3",
-        "description": "task3",
-        "user": "Antonio",
-        "status": "pending",
-        "startTime": "2025-04-01 11:37:50",
-        "endTime": null,
-        "id": "3"
-    },
-    {
         "title": "Task 9",
         "description": "Hacer deberes",
         "user": "Ivonne",

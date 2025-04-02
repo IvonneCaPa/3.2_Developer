@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is used for creating a connection to the database
+ * Este archivo permite que los usuarios se conecten a la base de datos
  */
  
 // parses the settings file
