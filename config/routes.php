@@ -1,5 +1,5 @@
 <?php 
-
+/** Las rutas que necesitamos */
 	$routes = array(
 		'/' => 'tasks#index',
 		'/tasks' => 'tasks#index',
@@ -10,3 +10,4 @@
 		'/tasks/delete/id/:id' => 'tasks#delete',
 		'/tasks/delete-confirm/id/:id' => 'tasks#delete'
 	);
+?>

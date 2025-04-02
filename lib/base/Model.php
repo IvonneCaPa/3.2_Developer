@@ -34,6 +34,12 @@
 		{
 			$this->loadData(); // Recargar los datos
 
+			// Validar que el campo 'titulo' no esté vacío
+			if (empty($data['titulo'])) {
+				// Puedes lanzar una excepción o retornar un mensaje de error
+				return "Error: El campo 'titulo' no puede estar vacío.";
+			}
+		
 			if (array_key_exists('id', $data)) {
 				// Actualizar
 				foreach ($this->_data as &$task) {
