@@ -9,15 +9,6 @@
         "id": "3"
     },
     {
-        "title": "Task 4",
-        "description": "task 4",
-        "user": "Maria",
-        "status": "in_progress",
-        "startTime": "2025-04-01 11:50:38",
-        "endTime": null,
-        "id": "4"
-    },
-    {
         "title": "Task 9",
         "description": "Hacer deberes",
         "user": "Ivonne",
