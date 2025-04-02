@@ -45,7 +45,7 @@
 				}
 			} else {
 				// Insertar
-				$data['id'] = strval(count($this->_data) + 1); // Asignar nuevo ID
+				$data['id'] = uniqid(); // Asignar nuevo ID
 				$this->_data[] = $data;
 				$this->writeData();
 				return $data['id'];
