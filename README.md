@@ -13,12 +13,12 @@ Following the MVC pattern create a to-do list project.
 
 ### Requirements:
 
-GitHub account
-Visual Studio Code
-PHP (>= 7.4)
-Web server (Apache/Nginx)
-Install:
-Clone the following repository: https://github.com/IT-Academy-BCN/phpInitialDemo
+- GitHub account
+- Visual Studio Code
+- PHP (>= 7.4)
+- Web server (Apache/Nginx)
+- Install:
+- Clone the following repository: https://github.com/IT-Academy-BCN/phpInitialDemo
 
 ### Contributions:
 
