@@ -20,26 +20,25 @@
 			}
 		}
 
-		public function fetchOne($id)
+			public function fetchOne($id)
 		{
+
 			foreach ($this->_data as $task) {
 				if ($task['id'] == $id) {
-					return (object) $task; // Convertir a objeto
+					return (object) $task; 
 				}
 			}
-			return null; // Retornar null si no se encuentra
+			return null; 
 		}
 
-		public function save($data = array())
+			public function save($data = array())
 		{
-			$this->loadData(); // Recargar los datos
+			$this->loadData();
 
-			// Validar que el campo 'titulo' no esté vacío
-			if (empty($data['titulo'])) {
-				// Puedes lanzar una excepción o retornar un mensaje de error
-				return "Error: El campo 'titulo' no puede estar vacío.";
-			}
-		
+			// if (empty($data['titulo'])) {
+			// 	return "Error: El campo 'titulo' no puede estar vacío.";
+			// }
+
 			if (array_key_exists('id', $data)) {
 				// Actualizar
 				foreach ($this->_data as &$task) {
@@ -50,19 +49,19 @@
 					}
 				}
 			} else {
-				// Insertar
-				$data['id'] = uniqid(); // Asignar nuevo ID
+			
+				$data['id'] = uniqid(); 
 				$this->_data[] = $data;
 				$this->writeData();
 				return $data['id'];
 			}
 
-			return false; // Retornar false si no se pudo guardar
+			return false; 
 		}
 
 		public function delete($id)
 		{
-			$this->loadData(); // Recargar los datos
+			$this->loadData(); 
 			foreach ($this->_data as $key => $task) {
 				if ($task['id'] == $id) {
 					unset($this->_data[$key]);
@@ -70,7 +69,7 @@
 					return true;
 				}
 			}
-			return false; // Retornar false si no se encontró el ID
+			return false; 
 		}
 
 		protected function writeData()
